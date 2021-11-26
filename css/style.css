@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, 'Segoe UI', Tahoma;
+}
+header {
+    background-image: url(../imgs/pexels-jessica-lynn-lewis-3405456.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 900px;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+header .content h1 {
+    font-family: fangsong;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 75%;
+}
+header .content h2 {
+    font-weight: 900;
+    font-size: 40px;
+}
+header .content a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+}
+header .content a:hover {
+    background-color: white;
+    color: rgb(8, 8, 26);
+}
+/*           start main         */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main .head {
+    padding: 50px;
+    margin: 30px;
+    border-bottom: 2px solid rgb(170, 170, 170);
+}
+main .head h2 {
+    font-size: 30px;
+}
+
+/*                start sections capture and mobile and look            */
+main .capture,
+main .mobile, 
+main .look {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 650px;
+    text-align: left;
+    margin: 100px 0px;
+    padding: 63px;
+    border-bottom: 2px solid rgb(170, 170, 170);
+
+}
+
+main .capture img,
+.mobile img,
+.look img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+}
+main .capture .capture-details,
+.mobile .mobile-details,
+.look .look-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    padding: 60px;
+}
+main .capture .capture-details .one,
+.mobile-details .two,
+.look-details .three {
+    font-size: 40px;
+    color: red;
+}
+main .capture .capture-details h3,
+.mobile-details h3, 
+.look-details h3 {
+    font-size: 25px;
+}
+main .capture .capture-details a, 
+.mobile-details a, 
+.look-details a {
+    text-decoration: none;
+    background: red;
+    padding: 16px;
+    color: white;
+    width: fit-content;
+}
+main .capture .capture-details a:hover,
+.mobile-details a:hover,
+.look-details a:hover  {
+    background-color: rgb(29, 12, 12);
+}
+
+/*                start explore             */
+main .explore h3 {
+    color: red;
+    font-size: 35px;
+}
+main .explore h4 {
+    font-size: 30px;
+}
+main .explore p {
+    width: 55%;
+    margin: 0px auto 50px;
+}
+main .explore .icons {
+    display: flex;
+}
+main .explore .fas {
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.705);
+}
+main .explore h5 {
+    font-size: 15px;
+}
+main .explore img {
+    width: 100%;
+    margin-top: 45px;
+    box-shadow: 0px 0px 55px #000000b5;
+}
+
+/*           start section want to try          */
+main .want-to {
+    background-color: red;
+    width: 100%;
+    min-height: 250px;
+    padding: 50px;
+    color: white;
+}
+main .want-to h3 {
+    width: 30%;
+    margin: 45px auto;
+}
+main .want-to a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 20px;
+}
+main .want-to a:hover {
+    background-color: white;
+    color: red;
+}
+
+/*          start section  logos          */
+main .logos {
+    margin: 50px;
+    color: #3e3e3e;
+}
+main .logos .title h4 {
+    font-size: 25px;
+    padding: 20px;
+}
+main .logos .icons {
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    justify-content: space-around;
+}
+main .logos .icons p:nth-of-type(2) {
+    font-weight: 800;
+    color: rgb(145, 145, 145);
+}
+main .logos .icons p:nth-of-type(3) {
+    font-weight: 600;
+}
+main .logos .icons img {
+    width: 20%;
+}
+
+/*            start footer           */
+
+footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #eee;
+    padding: 50px;
+}
+footer .icons-social {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    width: 50%;
+    margin: auto;
+}
+footer p {
+    text-align: center;
+    margin: 60px;
+}
